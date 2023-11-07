@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
-import Cross from '../src/Cross.png';
-import Circle from '../src/Circle.png';
+import Cross from '../assets/Cross.png';
+import Circle from '../assets/Circle.png';
 
 const TicTacToe = () => {
   const [count, setCount] = useState(0);
